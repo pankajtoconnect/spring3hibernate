@@ -1,5 +1,5 @@
 FROM maven:3.3-jdk-8 as builder
-MAINTAINER Pankaj Maurya
+MAINTAINER Pankaj 
 COPY . /usr/src/mymaven/
 WORKDIR /usr/src/mymaven/
 RUN mvn clean install
